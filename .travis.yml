@@ -2,8 +2,7 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key:
-    secure: HISbWy235YFO1y4f28yeKpSIgdgDg+S58gZ948QJpmwOnCDtLB94h3iZHJS17C4VHrBaejt15VEo6mAa54ejCyHlq0Pw2pWujBenQVzgVhBQqCiMpPY5difc2qJAK6QbyqDX1Y1sJzTi93iH4aAKRmg1Zk1UKXcvJYKzmPys0WpA0nd6hEUWsL6GfQkPhO03CIi8D1ERlbq5y2pgNEwcEXoEq4MOREq/yW/S1iGEJVLNnJg6p0/IId7GnOvt+ZBLQa/uNrtUe5Su0V2J8jEt15NWb7CHktJZpXsbwNvS/3v0Db/6esFvbhFZZsmjLdj/+uDDXXMeXH50xoJoWLh0v959U+YvHwKaXf6KDwRNr8qQfmm5vTX2pqQFd6aAaUQDZfo9iQqy3tt4Sp1mkTIA3hz+Mdw+taOYbyDOw5unvIXwYotOMcLY34Gt7HSUZ2GrnKhfKhvrGqvSCwhCJR9aKw1T7dP/JMxSu3HJQ677x0/d955phHDT4MmVTFcZcvIrpj0lQEj52cGJ45pD3PrmfNwtru/9ZoOSFqcdAt4DtwWGivaDhh3IleZGd2SGZU5B0ZkyZ+i9k9l/a0WAl0zLYiGrdJdutenXWrZmqEb1+qO0uvLEJ95C/BddusakZJGlXfV+DETK9eBcL/zDk0HjKZmHm8j6DHO8oAjmdKDETKU=
+  api_key: ...
   app: agile-temple-32376
   on:
     repo: surbhiguptasai/node-integration-tests-1
