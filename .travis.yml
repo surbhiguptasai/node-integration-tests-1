@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: StBz2qVmuE7qwwcmdXA3NjCLsuy1X/7T9yTELAHmO+9Vuc/1/Vw54r3TEcW2j0kLPU6glXFLu92/WZoKo1bwJnZIQVh7kSj2Jil0ar0RfnEBLRhq/mMmSype+Mbg/MOdQOLNDwVZduFNvgfowJeZSdZfw5fktoB39PHBnmJh7jG2nEe6HVRi/OaQNddWpkr0f/H5C2kjBClRyTzqjS1iujQtR/0NnKrnilpGumDBf1I+NF2WMdaCW7pZTBcBBEiLj8VHOM/eOTCndufhZCbakOmQ8BSJm3XjjYR3rgC8ZI+5EfWdNAS0bVVtJxJdIbENCsU5XB524ajdojwW1OwfCERfuhWiezqePrstbX3UuV78jVUZ8bvdoXTYOi+PT3BlwGGChBhYq85iH1XeqNHHn0OW7l/MosoJNbEbY4h4Z8/ksh1WXsDfQocE+1GY/Xkv5Yf2TvEryuLIw36RNpseoYBj05+thZJDLxgq+mu96vJqGNt4HEKCL5ArP+3kFENYiSOLjfa50mZfYRvZBYVRCkFydg9OKEecGtGFtz3C/clfgS+g8O43DzltP5ZkyfHtxqR3JHxfjY0m3he5CA3xVC9ghfh+2DdtWsjDWoCfi7NT0mFSZRewytp73RvhAKcUALTZ8RKReISC9HaCmCFMIvCk0RDyL8K1jigIOxFP3o8=
+  app: obscure-reef-78719
+  on:
+    repo: surbhiguptasai/node-integration-tests-1
