@@ -2,7 +2,7 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: ...
-  app: agile-temple-32376
+  api_key: ''
+  app: node-integration-tests-1
   on:
     repo: surbhiguptasai/node-integration-tests-1
