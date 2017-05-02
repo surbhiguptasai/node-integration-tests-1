@@ -2,7 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: ''
-  app: node-integration-tests-1
+  api_key:
+    secure: i48X4CITxDJggyjAPArsFrNMxeiGTTqikgtEK5XphjL7rz06a3JIdL+e6KEuwZOGV9Nty2KnM3At0nB6JXSkH33TsCI6Is8LcrMaYJHUHZmEl1WKeqAtbvdxjEduJSc8SGYvfPghyzPjigM45s0FiU0upC8v1BoeNYBTBTkZYOolwRPn1C78uUaftippUrN7JZuPu5MwMbeeTFggv60NcJqZ5XHDMH+U9Ute7h3B65tNhqtoFPkDP0+sxyygFU2gRxOePBWZLG0yGotlfvwJipuQkUe9Wp+QprLXQ1++8Lm/u2iSeTYDwyAL3XnujErAHY4ruBWsA6Gji/yWRCWXlbgNJGZwQUVJ8EE34SDSBtQsn+zFbSqVrZG8rM/bQlWQiuAIEWWqG7aYIpsSVb7HBkDhY4E7u3hLYAOq5eVLqLlJlgGMk+O4DW5gmy6Z9WwpIAX4nnnIEcaobJx1N8jdA8YgisuqXCC4cP6UEt08xzkHEulWH9tlGL3AgQhxhGYxGUhgNlWwckNsTp9V3tHmSOecHx0SLY6JMynIcbE6B/Pe52NxIMHlgstLep1KxHzKA5iJ7qB+9E6Hpxppm+tazQjg8L/GsLXLXKFfasLmiC2iVlCq3nXQOz3SbruaudyCXdZ2A1w/F286lzPKLHCSmvlG1yotvB9qu/9bFB8FtFI=
+  app: arcane-chamber-68653
   on:
     repo: surbhiguptasai/node-integration-tests-1
